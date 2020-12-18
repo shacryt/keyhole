@@ -1,0 +1,8 @@
+{
+  "short_name": "Keyhole",
+  "name": "Keyhole By Sofia Pavlidi",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0E0E0E",
+  "background_color": "#0E0E0E"
+}
