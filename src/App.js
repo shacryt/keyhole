@@ -62,7 +62,7 @@ const GlobalStyle = createGlobalStyle`
   .wrapper:active:after {
     opacity: 0;
   }
-
+/*
   @keyframes shine {
     10% {
       opacity: 1;
@@ -76,8 +76,7 @@ const GlobalStyle = createGlobalStyle`
       top: -200%;
       transition-property: left, top, opacity;
     }
-  }
-
+  }*/
 `;
 
 function App() {
@@ -92,12 +91,10 @@ function App() {
     >
       <GlobalStyle />
       <div className='wrapper'>
-        <img
-          className='logo'
-          src='https://keyhole-web-files.s3.eu-central-1.wasabisys.com/temp/under_construction.png'
-          alt=''
-        />
-        <div className='footer'>KEYHOLE - Copyright 2021 - ByteVeil</div>
+        <div style={{ color: 'white', fontSize: '15pt', maxWidth: '80%' }}>
+          You are viewing the old version of our website. Please use a WIFI
+          connection or a different network to access the updated version.
+        </div>
       </div>
     </div>
   );
